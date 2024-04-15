@@ -1,0 +1,7 @@
+numpy
+sounddevice
+hdwallet
+monero
+pdfkit
+qrcode
+Image
