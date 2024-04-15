@@ -76,7 +76,7 @@ sudo apt install wkhtmltopdf
 ```
 Finally, run the tool
 ```
-python3 micc2paper.py
+python3 mic2paper.py
 ```
 
 ### Troubleshooting
