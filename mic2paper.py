@@ -49,7 +49,7 @@ def makeqr(keystr, filename):
 
 
 def record_audio(duration):
-    print("Registrazione audio in corso...")
+    print("Recording...you may want to sing something")
     fs = 44100  # Sampling frequency
     seconds = duration  # Duration in seconds
 
