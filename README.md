@@ -18,6 +18,14 @@ Install requirements (read above for Python virtual envitonments):
 ```
 pip3 install -r requirements.txt
 ```
+There may be some dependency problems, if so try installing portaudio19-dev with
+```
+sudo apt install portaudio19-dev
+```
+then install requirements again with
+```
+pip3 install -r requirements.txt
+```
 Additional resources, needed to generate printable pdf files:
 ```
 sudo apt install wkhtmltopdf
