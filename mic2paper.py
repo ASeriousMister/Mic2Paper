@@ -106,7 +106,7 @@ while tour2:
 # Check if user wants a printable paper wallet
 tour3 = 1
 qr = False
-print(color.GREEN + 'Do you want DiceTracker to generate a printable paper wallet?' + color.END)
+print(color.GREEN + 'Do you want Mic2Paper to generate a printable paper wallet?(y/n)' + color.END)
 while tour3:
     qr_ans = input()
     if qr_ans == 'y' or qr_ans == 'Y':
