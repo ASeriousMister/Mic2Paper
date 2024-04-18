@@ -237,7 +237,7 @@ if qr:
     else:
         ft.write('<p><strong>Private key: </strong>' + WIF_priv + '</p>')
         ft.write('<p><img src="private_key.png" width="200" height="200"></p>')
-    ft.write('<p></p><p></p><p><em>Made with dicetracker.py<br>More info at https://anubitux.org</em></p>')
+    ft.write('<p></p><p></p><p><em>Made with Mic2Seed<br>More info at https://anubitux.org</em></p>')
     ft.write('</body>')
     ft.close()
     pdfkit.from_file('PaperWallet/temp.html', 'PaperWallet/paperwallet.pdf', options={"enable-local-file-access": ""})
