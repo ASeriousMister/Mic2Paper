@@ -5,3 +5,4 @@ monero
 pdfkit
 qrcode
 Image
+bitcash
