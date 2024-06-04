@@ -249,10 +249,10 @@ if qr:
     else:
         ft.write('<p><strong>Private key: </strong>' + WIF_priv + '</p>')
         ft.write('<p><img src="private_key.png" width="200" height="200"></p>')
-    ft.write('<p></p><p></p><p><em>Made with Mic2Seed<br>More info at https://anubitux.org</em></p>')
+    ft.write('<p></p><p></p><p><em>Made with Mic2Paper<br>More info at https://anubitux.org</em></p>')
     ft.write('</body>')
     ft.close()
     pdfkit.from_file('PaperWallet/temp.html', 'PaperWallet/paperwallet.pdf', options={"enable-local-file-access": ""})
     os.remove('PaperWallet/temp.html')
-    print(color. DARKCYAN + '\nYour paper wallet can be found in the PaperWallet directory in the DiceTracker.py folder' + color.END)
+    print(color. DARKCYAN + '\nYour paper wallet can be found in the PaperWallet directory in the Mic2Paper folder' + color.END)
 print('')
