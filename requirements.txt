@@ -6,3 +6,4 @@ pdfkit
 qrcode
 Image
 bitcash
+pillow
